@@ -195,7 +195,7 @@ namespace PapyrusCs
 
 
             Console.WriteLine("Time is {0}", _time.Elapsed);
-            strat.RenderZoomLevels();
+            //strat.RenderZoomLevels();
 
 
             WriteMapHtml(tileSize, options.OutputPath, options.MapHtml, strat.GetSettings(), strat.IsUpdate, options.UseLeafletLegacy);
