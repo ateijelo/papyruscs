@@ -241,7 +241,7 @@ namespace PapyrusCs
 
 
                 Console.WriteLine("Time is {0}", _time.Elapsed);
-                strat.RenderZoomLevels();
+                //strat.RenderZoomLevels();
 
                 var output = new OpenLayers();
 
